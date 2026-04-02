@@ -1,0 +1,103 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+@theme {
+  --font-display: "Inter", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  --animate-fade-up-1: fade-up 0.5s ease forwards 0.1s;
+  --animate-fade-up-2: fade-up 0.5s ease forwards 0.2s;
+  --animate-fade-up-3: fade-up 0.5s ease forwards 0.3s;
+  --animate-fade-up-4: fade-up 0.5s ease forwards 0.4s;
+  --animate-slide-down: slide-down 0.4s ease forwards;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes shimmer-slide {
+    0% {
+      transform: translateX(-120%);
+    }
+    100% {
+      transform: translateX(220%);
+    }
+  }
+
+  @keyframes loading-slide {
+    0% {
+      transform: translateX(-110%);
+    }
+    100% {
+      transform: translateX(320%);
+    }
+  }
+}
+
+:root svg {
+  color: #111;
+}
+.dark svg {
+  color: #fff;
+  filter: brightness(1.1);
+}
+
+.skeleton-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.45) 50%,
+    transparent 100%
+  );
+  animation: shimmer-slide 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.dark .skeleton-slide::after {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.08) 50%,
+    transparent 100%
+  );
+}
+
+.loading-slide {
+  animation: loading-slide 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}

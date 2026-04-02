@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Build output / production
+dist/
+build/
+
+# Vite cache
+/.vite/
+
+# Localenv
+.env
+.env.*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ESLint cache
+.eslintcache
+
+# Jest caches
+jest-cache/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# tmux
+*.tmux*
+
+# sensitive data store
+db.json
