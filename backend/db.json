@@ -1,0 +1,143 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "Supper Admin",
+      "role": "Super Admin",
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Nike ZoomX Vaporflysdasasdas",
+      "category": "Racing",
+      "price": 259.99,
+      "stock": 17,
+      "description": "Race-day speed shoe for serious runners",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Nike ZoomX Vaporflysdasasdas",
+      "category": "Racing",
+      "price": 259.99,
+      "stock": 17,
+      "description": "Race-day speed shoe for serious runners",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "4",
+      "name": "Nike ZoomX Vaporflysdasasdas",
+      "category": "Racing",
+      "price": 259.99,
+      "stock": 17,
+      "description": "Race-day speed shoe for serious runners",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Nike ZoomX Vaporflysdasasdas",
+      "category": "Racing",
+      "price": 259.99,
+      "stock": 17,
+      "description": "Race-day speed shoe for serious runners",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Nike Blazer Mid",
+      "category": "Lifestyle",
+      "price": 109.99,
+      "stock": 31,
+      "description": "Vintage hoops style updated for the street",
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1608666634759-4376010f863d?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "name": "NIke T shirt",
+      "category": "shirt",
+      "price": 0.7,
+      "stock": 0,
+      "description": "NIke T shirt",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvc2V8ZW58MHx8MHx8fDA%3D",
+      "id": "INk45vloZo4"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "customer": "Azim",
+      "email": "azim@example.com",
+      "product": "Nike Air Max 270",
+      "amount": 149.99,
+      "date": "2026-04-01",
+      "status": "delivered"
+    },
+    {
+      "id": "1002",
+      "customer": "Dilshod",
+      "email": "dilshod@example.com",
+      "product": "Nike Dunk Low",
+      "amount": 119.99,
+      "date": "2026-03-29",
+      "status": "pending"
+    },
+    {
+      "id": "1003",
+      "customer": "Jasur",
+      "email": "jasur@example.com",
+      "product": "Nike Pegasus 41",
+      "amount": 139.99,
+      "date": "2026-03-30",
+      "status": "delivered"
+    },
+    {
+      "id": "1004",
+      "customer": "Madina",
+      "email": "madina@example.com",
+      "product": "Nike ZoomX Vaporfly",
+      "amount": 259.99,
+      "date": "2026-03-28",
+      "status": "cancelled"
+    },
+    {
+      "id": "1005",
+      "customer": "Ziyoda",
+      "email": "ziyoda@example.com",
+      "product": "Nike Blazer Mid '77",
+      "amount": 109.99,
+      "date": "2026-03-27",
+      "status": "delivered"
+    },
+    {
+      "id": "xTvWF1yMTLQ",
+      "customer": "asd",
+      "email": "asda@gma.cn",
+      "phone": "as",
+      "address": "as",
+      "product": "Nike Court Vision Low x13",
+      "amount": 1169.87,
+      "date": "2026-04-01",
+      "status": "delivered",
+      "items": [
+        {
+          "id": "4",
+          "name": "Nike Court Vision Low",
+          "price": 89.99,
+          "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=80",
+          "category": "Lifestyle",
+          "size": "US 10",
+          "quantity": 13
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
