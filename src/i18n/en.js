@@ -4,7 +4,7 @@ export const en = {
     links: [
       { label: "New & Featured", href: "/" },
       { label: "Men", href: "/" },
-      { label: "Women", href: "/" },
+      { label: "Womens", href: "/" },
       { label: "Kids", href: "/" },
       { label: "Sale", href: "/" },
       { label: "SNKRS", href: "/" },
