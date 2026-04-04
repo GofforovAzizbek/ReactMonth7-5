@@ -55,5 +55,5 @@ coverage/
 # tmux
 *.tmux*
 
-# sensitive data store
-db.json
+# sensitive data store (except backend/db.json)
+!backend/db.json
